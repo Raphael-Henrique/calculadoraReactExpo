@@ -42,7 +42,7 @@ export default function App() {
         setCurrentNumber((fistNumber - lastNumber).toString())
         return
       case 'x':
-        setCurrentNumber((fistNumber * lastNumber).toString()) // O sinal estava de soma ao invés de multiplicação
+        setCurrentNumber((fistNumber * lastNumber).toString())
         return
       case '/': 
         setCurrentNumber((fistNumber / lastNumber).toString()) // O sinal estava de subtração ao invés de divisão
