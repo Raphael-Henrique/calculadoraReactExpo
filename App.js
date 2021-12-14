@@ -26,10 +26,10 @@ export default function App() {
           setCurrentNumber((fistNumber - (fistNumber * lastNumber / 100)).toString())
           return
         case 'x':
-          setCurrentNumber((fistNumber * lastNumber / 100).toString()) // O sinal estava de soma ao invés de multiplicação
+          setCurrentNumber((fistNumber * lastNumber / 100).toString())
           return
         case '/': 
-          setCurrentNumber((fistNumber / (fistNumber * lastNumber / 100)).toString()) // O sinal estava de subtração ao invés de divisão
+          setCurrentNumber((fistNumber / (fistNumber * lastNumber / 100)).toString())
           return
       }
     }
