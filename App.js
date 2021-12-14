@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native'; //O com
 
 export default function App() {
   // Mapeamento de teclas
-  const buttons = ['LIMPAR', 'DEL', '%', '/', 7 ,8, 9, "x", 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '+/-', '='] // A ordem numérica do 1 até o 3 estava invertida
+  const buttons = ['LIMPAR', 'DEL', '%', '/', 7 ,8, 9, "x", 4, 5, 6, '-', 1, 2, 3, '+', 0, '.', '+/-', '=']
 
   const [currentNumber, setCurrentNumber] = useState("")
   const [lastNumber, setLastNumber] = useState("")
