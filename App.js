@@ -103,7 +103,7 @@ export default function App() {
   );
 }
 
-/* Estilização */
+/* Estilização */ 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
