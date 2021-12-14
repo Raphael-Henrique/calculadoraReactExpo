@@ -45,7 +45,7 @@ export default function App() {
         setCurrentNumber((fistNumber * lastNumber).toString())
         return
       case '/': 
-        setCurrentNumber((fistNumber / lastNumber).toString()) // O sinal estava de subtração ao invés de divisão
+        setCurrentNumber((fistNumber / lastNumber).toString())
         return
     }
   }
