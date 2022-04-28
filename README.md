@@ -1,2 +1,2 @@
 # Calculadora - ReactExpo🖩⚛️
-Atividade do curso técnico em andamento
+Calculadora criada com React Native Expo
